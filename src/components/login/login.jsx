@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai'
+// import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai'
 import {RiLockPasswordLine} from 'react-icons/ri'
 import '../style/login_sigup_style.css'
 import Button from '../button'
