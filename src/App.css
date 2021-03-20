@@ -1,17 +1,22 @@
 body{
-}
-*{
-  margin: 0px ;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-  border-style: none;
-}
-.app{
-  background-image: url('./assets//bg.jpg');
+  font-family: Nunito,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  *{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+  .app{
+  background-image: url('https://easydeals.gs/resources/background/usd.jpg');
   background-size: 100% 100vh;
-
+  min-height: 100vh;
+  margin-top: 0px;
 }

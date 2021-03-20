@@ -1,12 +1,29 @@
+.login_container{
+
+    display: flex;
+    min-height: 100vh;
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
+    display: flex;
+    -webkit-box-align: center;
+    /* -ms-flex-align: center; */
+    align-items: center;
+    /* -webkit-box-pack: center; */
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 1.2rem;
+}
 .main_login_div{
     border: 2px solid;
-    max-width: 350px ;
+    max-width: 330px ;
     /* width: 100%; */
     margin: 0px auto;
     padding: 10px 30px;
     box-shadow: 0px 0px 3px gray;
     background-color: black;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    /* position: relative; */
+    /* top: 100px; */
     padding-bottom: 20px;
     text-align: center;
 }
@@ -23,6 +40,7 @@
    font-size: .75em;
    margin-top: 5px;
    margin-bottom: 10px;
+   font-weight: 400;
 }
 /* .form_div{
     margin-top: 10px;
@@ -45,7 +63,7 @@
     outline: none;
     border-radius: 3px;
     background-color: transparent;
-    border: 1px solid rgb(121, 119, 119);
+    border: 1px solid rgba(255,255,255,.2);
     text-align: center;
     color: white;
 }
@@ -70,8 +88,8 @@
 }
 .create_div{
     text-align: center;
-    padding: 8px;
-    width: 350px;
+    padding: 5px;
+    width: 330px;
     margin: 0px auto;
     margin-top: 8px;
     background-color: rgba(136, 158, 130, 0.9);
@@ -83,12 +101,16 @@
 }
 .create_link{
     text-decoration: none;
-    color: black;
+    /* color: black; */
+    color: #111;
+    font-size: .9em;
+
 }
 .user_icon{
     color: white;
-    font-size: 2.5em;
-    font-weight: 300 !important;
+    /* background-color: white; */
+    font-size: 3em;
+    font-weight: 400 !important;
     margin-top: 10px;
 }
 .error{
@@ -102,7 +124,7 @@
 }
 .eye_icon{
     position: relative;
-    left: 260px;
+    left: 230px;
     top: -25px;
     color: rgba(136, 158, 130, 0.9);
 }
@@ -124,7 +146,7 @@
 }
 .captcha_num{
     color: white;
-    border: 1px solid rgb(121, 119, 119) ;
+    border:  1px solid rgba(255,255,255,.2) ;
     margin-top: 25px ;
     padding: 10px 15px ;
     margin-left: 10px;

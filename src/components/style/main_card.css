@@ -48,14 +48,19 @@
     margin-top: -5px;
     margin-bottom: 2.1rem;
     color: #fff;
+    font-weight: 400;
+    
 }
 .card_para2{
-    color: #fff;
-    font-size: .8em;
+    color: rgb(201, 198, 198);
+    font-size: .75em;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    
 }
 .blnce_para{
     color: #ffc107;
     word-break: break-word;
     font-size: .8em;
     margin-top: 25px;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
