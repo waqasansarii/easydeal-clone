@@ -1,0 +1,17 @@
+body{
+}
+*{
+  margin: 0px ;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.app{
+  background-image: url('./assets//bg.jpg');
+  background-size: 100% 100vh;
+
+}

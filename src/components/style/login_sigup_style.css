@@ -1,0 +1,138 @@
+.main_login_div{
+    border: 2px solid;
+    max-width: 350px ;
+    /* width: 100%; */
+    margin: 0px auto;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 3px gray;
+    background-color: black;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.head_img{
+    width: 190px;
+    margin-bottom: 20px;
+}
+.login_head{
+    color:rgb(230, 227, 227);
+    font-size: 1.5rem;
+}
+.login_para{
+    color:rgb(230, 227, 227);
+   font-size: .75em;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+/* .form_div{
+    margin-top: 10px;
+} */
+.fields_div{
+    display: flex;
+    flex-direction: column;
+}
+.fields_div>label{
+    /* margin-top: 10px; */
+    font-size: .9em;
+    font-weight: 700px;
+    /* color: gray; */
+}
+.form_input{
+    margin-top: 25px;
+    width: 100%;
+    padding: 8px 5px;
+    /* font-size: 1em; */
+    outline: none;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid rgb(121, 119, 119);
+    text-align: center;
+    color: white;
+}
+.signup{
+    margin-top: 10px;
+}
+.login_btn{
+    margin-top: 10px;
+    width: 40px;
+    font-size: 1em;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 80px;
+    background-color: rgba(136, 158, 130, 0.9);
+
+}
+.login_btn:hover{
+    cursor: pointer;
+    background-color: rgba(117, 136, 111, 0.9);
+
+}
+.create_div{
+    text-align: center;
+    padding: 8px;
+    width: 350px;
+    margin: 0px auto;
+    margin-top: 8px;
+    background-color: rgba(136, 158, 130, 0.9);
+}
+.create_div:hover{
+    cursor: pointer;
+    background-color: rgba(102, 116, 98, 0.9);
+
+}
+.create_link{
+    text-decoration: none;
+    color: black;
+}
+.user_icon{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300 !important;
+    margin-top: 10px;
+}
+.error{
+    font-size: .8em;
+    color: red;
+    margin-top: 5px;
+    /* border: 2px solid; */
+}
+.err2{
+    margin-top: -15px;
+}
+.eye_icon{
+    position: relative;
+    left: 260px;
+    top: -25px;
+    color: rgba(136, 158, 130, 0.9);
+}
+.eye_icon:hover{
+    cursor: pointer;
+}
+.eye_icon_color{
+    color: royalblue;
+}
+.captcha_div{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid gainsboro; */
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+.captcha{
+    width: 80%;
+}
+.captcha_num{
+    color: white;
+    border: 1px solid rgb(121, 119, 119) ;
+    margin-top: 25px ;
+    padding: 10px 15px ;
+    margin-left: 10px;
+    border-radius: 6px;
+    background: transparent;
+    color: rgba(136, 158, 130, 0.9);
+    outline: none;
+}
+.captcha_num:hover{
+    cursor: pointer;
+}

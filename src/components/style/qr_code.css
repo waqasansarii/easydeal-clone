@@ -1,0 +1,126 @@
+.qr_container{
+    text-align: center;
+    color: white;
+    /* border: 1px solid gainsboro; */
+    padding: 10px;
+    /* transition: 5s; */
+    
+}
+.main_div_qrCode{
+    margin-top: -30px;
+    background-color: rgba(0,0,0,.2);
+
+}
+.close_icon{
+    position: relative;
+    font-size: 1.5em;
+    /* border: 1px solid gainsboro; */
+    background-color: rgba(71, 70, 70, 0.404);
+    width: fit-content;
+    padding: 0px 10px 5px 10px;
+    border-radius: 100px;
+    text-align: right;
+    left: 540px;
+}
+.close_icon:hover{
+    cursor: pointer;
+    background-color: rgba(71, 70, 70, 0.87);
+    transition: .3s;
+}
+.detail_qrCode{
+    margin-top: -10px;
+    font-size: .8em;
+}
+.ltc_para{
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+.id{
+    color: #ffc107;
+}
+.qr_code_div{
+    margin-top: 15px;
+}
+.activate_acount_div{
+    margin-top: 10px;
+    font-size: .8em;
+}
+.activate_btn{
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: rgba(71, 70, 70, 0.87);
+    color: gainsboro;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.activate_btn:hover{
+    cursor: pointer;
+    background-color: rgba(109, 107, 107, 0.87);
+
+}
+.transform{
+    opacity: .5;
+    transform: translate(-320px,0px);
+    width: 100px;
+}
+.transform2{
+    opacity: .5;
+    transform: translate(-130px,0px);
+    width: 100px;
+}
+.tiny_transform{
+    transform: translate(70px,0px);
+}
+.tiny_transform2{
+    transform: translate(-70px,0px);
+}
+
+.coin_img:hover{
+    opacity: inherit;
+}
+
+@media screen and (max-width:715px){
+      .main_div_qrCode{
+          width: 350px;
+          margin: 0px auto;
+      }
+      .close_icon{
+          left: 85%;
+      }
+      
+}
+@media screen and (max-width:600px){
+    .tiny_transform2{
+        transform: translate(-60px,0px);
+    }
+    .tiny_transform{
+        transform: translate(70px,0px);
+    }
+    .transform{
+        transform: translate(-250px,0px);
+    }
+    .transform2{
+        transform: translate(-60px,0px);
+        
+    }
+    
+}
+@media screen and (max-width:477px){
+    .tiny_transform2{
+        transform: translate(-50px);
+    }
+    .tiny_transform{
+        transform: translate(30px,90px);
+    }
+    .transform{
+        transform: translate(-100px);
+    }
+    .transform2{
+        transform: translate(-60px);
+    }
+    .main_div_qrCode{
+        width: 100%;
+    }
+    
+}
