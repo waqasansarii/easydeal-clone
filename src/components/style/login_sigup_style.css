@@ -101,27 +101,17 @@
 }
 .create_link{
     text-decoration: none;
-    /* color: black; */
     color: #111;
     font-size: .9em;
 
 }
 .user_icon{
     color: white;
-    /* background-color: white; */
     font-size: 3em;
     font-weight: 400 !important;
     margin-top: 10px;
 }
-.error{
-    font-size: .8em;
-    color: red;
-    margin-top: 5px;
-    /* border: 2px solid; */
-}
-.err2{
-    margin-top: -15px;
-}
+
 .eye_icon{
     position: relative;
     left: 230px;
@@ -137,7 +127,6 @@
 .captcha_div{
     display: flex;
     flex-direction: row;
-    /* border: 2px solid gainsboro; */
     margin-top: -15px;
     margin-bottom: 10px;
 }

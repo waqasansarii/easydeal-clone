@@ -1,23 +1,23 @@
-import React,{useState,useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css';
 import RouterApp from './router/router';
 import Loader from './components/loader/loader'
 
 function App() {
 
-  let [loading,setLoading] = useState(false)
+  let [loading, setLoading] = useState(false)
 
-  
-  useEffect(()=>{
-   
-    setTimeout(()=>{
-        setLoading(true)
-        console.log('settimeout')
-    },2000)
 
-  },[])
+  useEffect(() => {
 
-  if(!loading){
+    setTimeout(() => {
+      setLoading(true)
+      console.log('settimeout')
+    }, 2000)
+
+  }, [])
+
+  if (!loading) {
     return <Loader />
   }
 
