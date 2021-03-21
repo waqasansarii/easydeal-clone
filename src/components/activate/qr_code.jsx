@@ -11,7 +11,7 @@ import load_gif from '../../assets/ipad-load.gif'
 export default function Qr_code({ func, value, changeFunc }) {
 
     let [load,setLoad] = useState(false)
-    // console.log(value)
+    
     return (
         <div className='qr_container' >
             <img
@@ -22,7 +22,6 @@ export default function Qr_code({ func, value, changeFunc }) {
                 onClick={() => changeFunc('bitcoin')}
                 className={`coin_img ${value === 'litecoin' ? 'transform' : 'tiny_transform2'}`}
                 src={bitcoin} alt="" />
-            {/* <IoCloseCircleOutline className='close_icon' /> */}
             <div className='main_div_qrCode'>
                 <p className='close_icon' onClick={func}>&times;</p>
                 <div className='detail_qrCode'>
@@ -35,10 +34,6 @@ export default function Qr_code({ func, value, changeFunc }) {
                     <p className='id'>{value=='litecoin'?'LSSCEZEsBjf18rA6TiNBbTrwFL5oEmX6if':'17UCqctqXksUBN6ZQEjvs2FCEjg8fZyiMq'}</p>
                 </div>
                 <div className='qr_code_div'>
-                    {/* <img src="https://chart.googleapis.com/chart?chs=150x150&amp;cht=qr&amp;chl=https://www.mrc-productivity.com/techblog/?p=1172" /> */}
-                    {/* <canvas>
-                        {ltc_qr}
-                    </canvas> */}
                     <img className='qr_img' src={value==='litecoin'? ltc_qr: btc_qr} alt=""/>
                 </div>
                 <div className='activate_acount_div'>

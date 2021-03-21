@@ -10,27 +10,27 @@ import { useHistory } from 'react-router-dom'
 
 
 
-const Login = props => {
+const Login = () => {
 
     const history = useHistory()
-    // console.log(props.history.location.state)
+
     let [captchaValLogin, setCaptchaValLogin] = useState('2')
     let [value, setValue] = useState({ email: '', password: '' })
 
-    
-
+    //change captcha value 
     const changeCaptchaValLogin = () => {
         let mathRandom = Math.random() * 10
         let floor = Math.floor(mathRandom).toString()
         setCaptchaValLogin(floor)
     }
 
-
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         history.push('/activate')
     }
-    
+
+    // set first letter capital of input field
     const handleChange = (e) => {
         let uper = e.target.value.charAt(0).toUpperCase() + e.target.value.slice(1);
         setValue({ [e.target.id]: uper })

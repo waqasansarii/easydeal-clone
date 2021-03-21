@@ -24,10 +24,7 @@ const Signup = () => {
     const handlePasswordSee = () => {
         setHide(!hide)
     }
-    // const handleConfirmPasswordSee = () => {
-    //     setconfirmPassword(!confirmPassword)
-    //     // console.log(e.target.value)
-    // }
+ 
 
     const changeCaptchaVal = () => {
         let mathRandom = Math.random() * 10
@@ -39,6 +36,8 @@ const Signup = () => {
         e.preventDefault();
         history.push('/')
     }
+
+    //these functions are for first letter capital input fields
     const handleuserName = (e) => {
         let uper = e.target.value.charAt(0).toUpperCase() + e.target.value.slice(1);
         setuserName(uper)

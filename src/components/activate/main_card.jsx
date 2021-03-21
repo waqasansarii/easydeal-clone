@@ -9,16 +9,21 @@ import Qr_code from './qr_code'
 
  const MainCardActivate=() =>{
 
-    let [open,setOpen] = useState(false)
-    let [value, setValue] = useState('')
+    // state and function for open get and set value and show component according to value
 
+     let [value, setValue] = useState('')
+
+     const handleValueChange = (e)=>{
+              setValue(e)
+     } 
+    // state and function for open QR code Componen
+
+    let [open,setOpen] = useState(false)
     const handleOpen = (e)=>{
         setOpen(!open)
         setValue(e)
     }
-    const handleValueChange = (e)=>{
-             setValue(e)
-    } 
+
 
     return (
         <div className='card_container'>
