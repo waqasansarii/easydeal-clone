@@ -39,7 +39,7 @@ import Qr_code from './qr_code'
                 <div className='main_detail_div'>
                 <div className='card_details_div'>
                     <p className='card_main_para'>Account not activated</p>
-                    <p className='card_para2'>To activate an account make a deposit of $20 using any of the suggested methods</p>
+                    <p className='card_para2'>To activate an account make a deposit of $50 using any of the suggested methods</p>
                     <p className='blnce_para'>This amount will be added to balance</p>
                 </div>
                 </div>

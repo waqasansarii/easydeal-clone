@@ -80,6 +80,13 @@
     opacity: inherit;
 }
 
+.qr_img{
+    width: 180px;
+}
+.load_git{
+    width: 15px;
+}
+
 @media screen and (max-width:715px){
       .main_div_qrCode{
           width: 350px;
@@ -108,16 +115,16 @@
 }
 @media screen and (max-width:477px){
     .tiny_transform2{
-        transform: translate(-50px);
+        transform: translate(-0px,20px);
     }
     .tiny_transform{
-        transform: translate(30px,90px);
+        transform: translate(30px,100px);
     }
     .transform{
         transform: translate(-100px);
     }
     .transform2{
-        transform: translate(-60px);
+        transform: translate(-110px,110px);
     }
     .main_div_qrCode{
         width: 100%;

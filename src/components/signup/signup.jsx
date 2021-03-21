@@ -65,8 +65,6 @@ const Signup = () => {
                                 <input
                                     className='form_input'
                                     type="text"
-                                    name="name"
-                                    id="name"
                                     placeholder='Username'
                                     onChange={(e) => handleuserName(e)}
                                     value={username}
@@ -75,9 +73,7 @@ const Signup = () => {
                             <div className='fields_div'>
                                 <input
                                     className='form_input'
-                                    type="email"
-                                    name="email"
-                                    id="email"
+                                    type="text"
                                     placeholder='Email'
                                     onChange={(e) => handleEmail(e)}
                                     value={email}

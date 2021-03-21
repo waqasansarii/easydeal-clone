@@ -14,14 +14,10 @@ const Login = props => {
 
     const history = useHistory()
     // console.log(props.history.location.state)
-    let [hide, setHide] = useState(false)
-
     let [captchaValLogin, setCaptchaValLogin] = useState('2')
     let [value, setValue] = useState({ email: '', password: '' })
 
-    const handlePasswordSee = () => {
-        setHide(!hide)
-    }
+    
 
     const changeCaptchaValLogin = () => {
         let mathRandom = Math.random() * 10
@@ -34,6 +30,7 @@ const Login = props => {
         e.preventDefault();
         history.push('/activate')
     }
+    
     const handleChange = (e) => {
         let uper = e.target.value.charAt(0).toUpperCase() + e.target.value.slice(1);
         setValue({ [e.target.id]: uper })
@@ -55,9 +52,6 @@ const Login = props => {
                             <div className='fields_div'>
                                 <input
                                     className='form_input'
-                                    type="email"
-                                    name="email"
-                                    id="email"
                                     placeholder='Username'
                                     onChange={(e) => handleChange(e)}
                                     value={value.email}
@@ -67,7 +61,7 @@ const Login = props => {
                             <div className='fields_div'>
                                 <input
                                     className='form_input'
-                                    type={!hide ? "password" : 'text'}
+                                    type="password"
                                     name="password"
                                     id="password"
                                     placeholder='Password'
@@ -75,14 +69,6 @@ const Login = props => {
                                     value={value.password}
                                 />
                                 <RiLockPasswordLine className='eye_icon'/>
-                                {/* {!hide ?
-                                    <RiLockPasswordLine className='eye_icon' onClick={handlePasswordSee} />
-                                    :
-                                    <AiOutlineEyeInvisible
-                                        className={hide ? 'eye_icon eye_icon_color' : 'eye_icon'}
-                                        onClick={handlePasswordSee}
-                                    />
-                                } */}
 
                             </div>
                             <div>
