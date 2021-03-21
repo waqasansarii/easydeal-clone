@@ -118,10 +118,11 @@
         transform: translate(-0px,20px);
     }
     .tiny_transform{
-        transform: translate(30px,100px);
+        transform: translate(10px,105px);
     }
     .transform{
         transform: translate(-100px);
+        width: 80px;
     }
     .transform2{
         transform: translate(-110px,110px);

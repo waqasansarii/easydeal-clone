@@ -78,7 +78,7 @@ const Login = () => {
                                         type="text"
                                         name="Captcha"
                                         id="captcha"
-                                        placeholder='captcha'
+                                        placeholder='Captcha'
                                     />
                                     <input type="button" readOnly={true} className='captcha_num' onClick={changeCaptchaValLogin}
                                         value={captchaValLogin}
